@@ -21,7 +21,7 @@ colors.get_colors = function()
             LeftLight = '#767676',
 
             PopupFront = '#000000',
-            PopupBack = '#FFFFFF',
+            PopupBack = '#E4E4E4',
             PopupHighlightBlue = '#005FAF',
             PopupHighlightGray = '#585858',
 
@@ -105,7 +105,7 @@ colors.get_colors = function()
             LeftLight = '#949494',
 
             PopupFront = '#B2B2B2',
-            PopupBack = '#000000',
+            PopupBack = '#121212',
             PopupHighlightBlue = '#005FFF',
             PopupHighlightGray = '#767676',
 
