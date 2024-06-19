@@ -530,7 +530,7 @@ theme.set_highlights = function(opts)
     -- LSP
     hl(0, 'DiagnosticOk', { fg = c.BlueGreen, bg = c.None })
     hl(0, 'DiagnosticError', { fg = c.Red, bg = c.None })
-    hl(0, 'DiagnosticWarn', { fg = c.Yellow, bg = c.None })
+    hl(0, 'DiagnosticWarn', { fg = c.Orange, bg = c.None })
     hl(0, 'DiagnosticInfo', { fg = c.Blue, bg = c.None })
     hl(0, 'DiagnosticHint', { fg = c.Blue, bg = c.None })
     hl(0, 'DiagnosticUnnecessary', { fg = c.DisabledBlue, bg = c.None })
