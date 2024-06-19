@@ -11,6 +11,8 @@ colors.get_colors = function()
             None = 'NONE',
             Front = '#000000',
             Back = '#FFFFFF',
+            White = '#FFFFFF',
+            Black = '#000000',
 
             TabCurrent = '#FFFFFF',
             TabOther = '#BFBFBF',
@@ -90,11 +92,16 @@ colors.get_colors = function()
 
     else -- dark
 
+        -- Since "light" is my default. The names here are "inverted": light is
+        -- dark, black is white, etc.
+
         mycolors = {
 
             None = 'NONE',
             Front = '#B2B2B2',
             Back = '#000000',
+            Black = '#FFFFFF',
+            White = '#000000',
 
             TabCurrent = '#000000',
             TabOther = '#3A3A3A',
