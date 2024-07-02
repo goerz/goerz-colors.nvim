@@ -43,9 +43,9 @@ theme.set_highlights = function(opts)
     hl(0, 'TabLineSel', { fg = c.Front, bg = c.Back, bold = true })
     hl(0, 'Title', { fg = c.Black, bg = c.Back, bold = true })
     hl(0, 'Visual', { fg = c.Front, bg = c.Gray75 })
-    hl(0, 'VisualNOS', { fg = c.None, bg = c.Selection })
+    hl(0, 'VisualNOS', { fg = c.White, bg = c.Selection })
     hl(0, 'WarningMsg', { fg = c.LightRed, bg = c.Back, bold = true })
-    hl(0, 'WildMenu', { fg = c.None, bg = c.Selection })
+    hl(0, 'WildMenu', { fg = c.White, bg = c.Selection, bold = true })
     hl(0, 'Comment', { fg = c.Gray50, bg = c.None })
     hl(0, 'Constant', { fg = c.DarkBlue, bg = c.None })
     hl(0, 'String', { fg = c.DarkGreen, bg = c.None })
@@ -177,6 +177,10 @@ theme.set_highlights = function(opts)
     hl(0, '@modifier', { link = 'Identifier' })
     hl(0, '@regexp', { fg = c.Red, bg = c.None })
     hl(0, '@decorator', { link = 'Identifier' })
+
+    -- Outline
+    -- hl(0, 'OutlineCurrent', { link = 'WildMenu' })
+    hl(0, 'OutlineCurrent', { bold = true })
 
     -- Markdown
     hl(0, 'markdownBold', { fg = c.DarkBlue, bg = c.None, bold = true })
