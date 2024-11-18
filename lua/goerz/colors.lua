@@ -64,7 +64,10 @@ colors.get_colors = function()
 
             -- Syntax colors
             Gray = '#585858',
-            Gray40 = '#585858',
+            Gray20 = '#343434',
+            Gray25 = '#404040',
+            Gray30 = '#585858',
+            Gray40 = '#656565',
             Gray50 = '#767676',
             Gray75 = '#BFBFBF',
             Gray90 = '#E4E4E4',
@@ -154,6 +157,9 @@ colors.get_colors = function()
 
             -- Syntax colors
             Gray = '#949494',
+            Gray20 = '#cbcbcb',
+            Gray25 = "#bfbfbf",
+            Gray30 = "#afafaf",
             Gray40 = "#949494",
             Gray50 = "#767676",
             Gray75 = "#3A3A3A",
