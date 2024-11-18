@@ -140,8 +140,8 @@ theme.set_highlights = function(opts)
     hl(0, '@markup.underline', { fg = c.Front, bg = c.None })
     hl(0, '@markup.strikethrough', { fg = c.Front, bg = c.None })
     hl(0, '@markup.heading', { fg = c.Blue, bg = c.None, bold = true })
-    hl(0, '@markup.raw', { fg = c.Front, bg = c.Gray95 })
-    hl(0, '@markup.raw.markdown', { fg = c.Front, bg = c.Gray95 })
+    hl(0, '@markup.raw', { bg = c.Gray95 })
+    hl(0, '@markup.raw.markdown', { bg = c.Gray95 })
     hl(0, '@markup.quote.markdown', { bg = c.Gray95 })
     hl(0, '@markup.link', { fg = c.Front, bg = c.None })
     hl(0, '@markup.link.label', { fg = c.DarkBlue, bg = c.None })
@@ -183,7 +183,7 @@ theme.set_highlights = function(opts)
     hl(0, 'OutlineCurrent', { bold = true })
 
     -- Julia
-    hl(0, '@string.documentation.julia', {  fg = c.Front, bg = c.Back })
+    hl(0, '@string.documentation.julia', {  fg = c.DarkGreen, bg = c.Back })
 
     -- Markdown
     hl(0, 'markdownBold', { fg = c.DarkBlue, bg = c.None, bold = true })
