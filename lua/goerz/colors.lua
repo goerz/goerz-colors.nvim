@@ -55,6 +55,10 @@ colors.get_colors = function()
             GitConflicting = '#D7005F',
             GitSubmodule = '#005FAF',
 
+            LSPUndef = '#f3f3f3',
+            LSPWarn = '#fff8d3',
+            LSPErr = '#ffdcd3',
+
             Context = '#BFBFBF',
             ContextCurrent = '#767676',
 
@@ -79,7 +83,7 @@ colors.get_colors = function()
             LightBlue = '#99CEDC',
             Green = '#5F8700',
             DarkGreen = '#008700',
-            BlueGreen = '#4EC9B0',
+            BlueGreen = '#3A9683',
             LightGreen = '#008700',
             Red = '#AF0000',
             Orange = '#D75F00',
